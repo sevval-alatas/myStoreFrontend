@@ -278,7 +278,7 @@ class _MarketListScreenState extends State<MarketListScreen> {
     // Backend'den gelen field isimleri (küçük harf)
     final marketId = market['id'];
     final marketName = market['name'] ?? 'Bilinmeyen Market';
-    final marketAddress = market['address'] ?? 'Adres belirtilmemiş';
+    final marketAddress = market['address'] ?? 'belirtilmemiş';
     final users = market['users'] as List?;
 
     return Card(
