@@ -277,7 +277,7 @@ class _MarketListScreenState extends State<MarketListScreen> {
   Widget _buildMarketCard(dynamic market) {
     // Backend'den gelen field isimleri (küçük harf)
     final marketId = market['id'];
-    final marketName = market['name'] ?? 'İsimsiz Market';
+    final marketName = market['name'] ?? 'Bilinmeyen Market';
     final marketAddress = market['address'] ?? 'Adres belirtilmemiş';
     final users = market['users'] as List?;
 
